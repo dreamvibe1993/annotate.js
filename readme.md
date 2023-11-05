@@ -4,5 +4,6 @@ A tool for annotating Javascript code.
 
 ## Known issues:
 
-    + No methods handling yet.
-    + Fallback functions sometimes fail at type infering.
+ + While this tool can complement existing annotations, it is best to avoid adding code with annotations that contain example functions or any code examples at all.
+
+ + Be careful with predefined functions. Sometimes the annotator fails to recognize nested functions in an argument. Better use predefined functions.
